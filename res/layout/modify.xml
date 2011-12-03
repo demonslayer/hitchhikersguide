@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/full_background"
+       android:baselineAligned="false"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/textIntro"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="50dp"
+           android:gravity="center"
+           android:text="Track your knowledge of the universe!"
+           android:textSize="10pt"
+           android:textStyle="bold" />
+
+       <EditText
+           android:id="@+id/termDescriptionText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+           android:inputType="textMultiLine"
+           android:minHeight="75dp"
+           android:minWidth="250dp"
+           android:text="Term Description"
+           android:textSize="20dp" />
+
+       <EditText
+           android:id="@+id/termNameText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/termDescriptionText"
+           android:layout_alignLeft="@+id/termDescriptionText"
+           android:layout_marginBottom="25dp"
+           android:gravity="center"
+           android:minHeight="15dp"
+           android:minWidth="250dp"
+           android:text="Term Name"
+           android:textSize="20dp" />
+
+       <Button
+           android:id="@+id/searchButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="25dp"
+           android:layout_marginLeft="10dp"
+           android:maxHeight="13dp"
+           android:minWidth="90dp"
+           android:text="Search"
+           android:textSize="15dp"
+           android:typeface="serif" />
+
+       <Button
+           android:id="@+id/indexButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="25dp"
+           android:layout_marginLeft="115dp"
+           android:maxHeight="13dp"
+           android:minWidth="90dp"
+           android:text="Index"
+           android:textSize="15dp"
+           android:typeface="serif" />
+
+       <Button
+           android:id="@+id/homeButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="25dp"
+           android:layout_marginLeft="220dp"
+           android:maxHeight="13dp"
+           android:minWidth="90dp"
+           android:text="Home"
+           android:textSize="15dp"
+           android:typeface="serif" />
+
+       <Button
+           android:id="@+id/submitButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/indexButton"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="40dp"
+           android:maxHeight="13dp"
+           android:minWidth="90dp"
+           android:text="Submit"
+           android:textSize="20dp"
+           android:typeface="serif" />
+   </RelativeLayout>
+
+</merge>

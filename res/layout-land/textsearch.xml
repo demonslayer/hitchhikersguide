@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/full_background"
+       android:baselineAligned="false"
+       >
+
+       <AutoCompleteTextView
+           android:id="@+id/autoCompleteTextView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="79dp"
+           android:gravity="center"
+           android:minHeight="15dp"
+           android:minWidth="250dp"
+           android:text="Search Term"
+           android:textSize="20dp" />
+
+       <Button
+           android:id="@+id/home1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_below="@+id/autoCompleteTextView1"
+           android:layout_marginRight="52dp"
+           android:layout_marginTop="22dp"
+           android:minHeight="15dp"
+           android:minWidth="180dp"
+           android:text="Home"
+           android:textSize="15dp"
+           android:typeface="serif" />
+
+       <Button
+           android:id="@+id/searchButton1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/home1"
+           android:layout_alignBottom="@+id/home1"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="38dp"
+           android:minHeight="15dp"
+           android:minWidth="180dp"
+           android:text="Search"
+           android:textSize="15dp"
+           android:typeface="serif" />
+   </RelativeLayout>
+
+</merge>

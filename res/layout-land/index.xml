@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/full_background"
+       android:baselineAligned="false"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/textInstruction"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="58dp"
+           android:gravity="center"
+           android:text="Select a term"
+           android:textSize="12pt"
+           android:textStyle="bold" />
+
+       <Spinner
+           android:id="@+id/spinner1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/textInstruction"
+           android:layout_centerHorizontal="true"
+           android:gravity="center"
+           android:minHeight="15dp"
+           android:minWidth="250dp"
+           android:text="Search Term"
+           android:textSize="20dp" />
+
+       <Button
+           android:id="@+id/searchButton1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_below="@+id/spinner1"
+           android:layout_marginRight="40dp"
+           android:layout_marginTop="32dp"
+           android:minHeight="15dp"
+           android:minWidth="180dp"
+           android:text="Search"
+           android:textSize="15dp"
+           android:typeface="serif" />
+
+       <Button
+           android:id="@+id/home1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/searchButton1"
+           android:layout_alignBottom="@+id/searchButton1"
+           android:layout_marginRight="65dp"
+           android:layout_toLeftOf="@+id/searchButton1"
+           android:minHeight="15dp"
+           android:minWidth="180dp"
+           android:text="Home"
+           android:textSize="15dp"
+           android:typeface="serif" />
+
+   </RelativeLayout>
+
+</merge>

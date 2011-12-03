@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Hitchhikersguide!</string>
+    <string name="app_name">Hitchhikersguide</string>
+    <string name="menu_title">Main Menu</string>
+    <string name="text_search_title">Text Search</string>
+    <string name="index_title">Index</string>
+    <string name="definition">Default Definition</string>
+    <string name="main_title">Default Main Title</string>
+    <string name="defn_title">Term Definition</string>
+    <string name="modify_title">Add Term</string>
+
+</resources>

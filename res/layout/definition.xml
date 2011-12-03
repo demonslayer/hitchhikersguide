@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="@drawable/full_background"
+     android:baselineAligned="false"
+     android:orientation="vertical" >
+
+     <Button
+         android:id="@+id/previousButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="50dp"
+         android:layout_marginTop="90dp"
+         android:maxHeight="13dp"
+         android:minWidth="90dp"
+         android:text="Previous"
+         android:textSize="13dp"
+         android:typeface="serif" />
+
+     <Button
+         android:id="@+id/nextButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="90dp"
+         android:maxHeight="13dp"
+         android:minWidth="90dp"
+         android:text="Next"
+         android:textSize="13dp"
+         android:typeface="serif" />
+
+     <Button
+         android:id="@+id/searchButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="25dp"
+         android:layout_marginLeft="10dp"
+         android:maxHeight="13dp"
+         android:minWidth="90dp"
+         android:text="Search"
+         android:textSize="13dp"
+         android:typeface="serif" />
+
+     <Button
+         android:id="@+id/indexButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="25dp"
+         android:layout_marginLeft="115dp"
+         android:maxHeight="13dp"
+         android:minWidth="90dp"
+         android:text="Index"
+         android:textSize="13dp"
+         android:typeface="serif" />
+
+     <Button
+         android:id="@+id/homeButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="25dp"
+         android:layout_marginLeft="220dp"
+         android:maxHeight="13dp"
+         android:minWidth="90dp"
+         android:text="Home"
+         android:textSize="13dp"
+         android:typeface="serif" />
+
+     <TextView
+         android:id="@+id/textTitle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="53dp"
+         android:background="#ffffffff"
+         android:gravity="center"
+         android:text="@string/main_title"
+         android:textColor="#000000"
+         android:textSize="8pt"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textDefinition"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:background="#ffffffff"
+         android:gravity="center"
+         android:text="@string/definition"
+         android:textColor="#000000"
+         android:textSize="8pt" />
+
+ </RelativeLayout>
+
+</merge>

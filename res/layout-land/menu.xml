@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="@drawable/full_background"
+     android:baselineAligned="false"
+     android:orientation="horizontal" >
+
+     <Button
+         android:id="@+id/modifyButton1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="19dp"
+         android:layout_marginRight="34dp"
+         android:minHeight="15dp"
+         android:minWidth="180dp"
+         android:text="Modify the Dictionary"
+         android:textSize="15dp"
+         android:typeface="serif" />
+
+     <Button
+         android:id="@+id/randomTerm1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/modifyButton1"
+         android:layout_alignBottom="@+id/modifyButton1"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="42dp"
+         android:minHeight="15dp"
+         android:minWidth="180dp"
+         android:text="Random Term"
+         android:textSize="15dp"
+         android:typeface="serif" />
+
+     <TextView
+         android:id="@+id/textIntro"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="14dp"
+         android:gravity="center"
+         android:text="Learn how to travel the known universe for less  than 30 Alterian dollars a day!"
+         android:textSize="12pt"
+         android:textStyle="bold" />
+
+     <Button
+         android:id="@+id/indexhButton1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/randomTerm1"
+         android:layout_below="@+id/textIntro"
+         android:layout_marginTop="20dp"
+         android:minHeight="15dp"
+         android:minWidth="180dp"
+         android:text="Index"
+         android:textSize="15dp"
+         android:typeface="serif" />
+
+     <Button
+         android:id="@+id/textSearch1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/indexhButton1"
+         android:layout_alignBottom="@+id/indexhButton1"
+         android:layout_alignRight="@+id/modifyButton1"
+         android:minHeight="15dp"
+         android:minWidth="180dp"
+         android:text="Text Search"
+         android:textSize="15dp"
+         android:typeface="serif" />
+
+ </RelativeLayout>
+
+</merge>
