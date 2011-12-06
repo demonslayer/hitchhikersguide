@@ -22,17 +22,20 @@
          android:textSize="13dp"
          android:typeface="serif" />
 
+  
      <TextView
          android:id="@+id/textDefinition"
-         android:layout_width="wrap_content"
+         android:layout_width="fill_parent"
          android:layout_height="wrap_content"
+         android:layout_below="@id/nextButton"
+         android:layout_above="@id/homeButton"
          android:layout_centerHorizontal="true"
          android:layout_centerVertical="true"
          android:background="#ffffffff"
          android:gravity="center"
          android:text="@string/definition"
          android:textColor="#000000"
-         android:textSize="8pt" />
+         android:textSize="8pt" /> 
 
      <TextView
          android:id="@+id/textTitle"

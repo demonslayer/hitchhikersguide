@@ -39,7 +39,7 @@ public class DBHelper {
 
 			String s = "";
 			while ((s = buff.readLine()) != null){
-				String[] RowData = s.split(",");
+				String[] RowData = s.split(",\"");
 				title = RowData[0];
 				def = RowData[1];
 				termsList.put(title, def);

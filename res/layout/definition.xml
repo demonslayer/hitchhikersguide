@@ -90,10 +90,12 @@
 
      <TextView
          android:id="@+id/textDefinition"
-         android:layout_width="wrap_content"
+         android:layout_width="fill_parent"
          android:layout_height="wrap_content"
          android:layout_centerHorizontal="true"
          android:layout_centerVertical="true"
+         android:layout_below="@id/nextButton"
+         android:layout_above="@id/homeButton"
          android:background="#ffffffff"
          android:gravity="center"
          android:text="@string/definition"
